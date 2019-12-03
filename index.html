@@ -32,5 +32,23 @@
         </ul>
       </div>
     </div>
+    <div class="container">
+      <h1>Now that you've learned about these animals, lets find out which one you would like as a pet</h1>
+      <form id="petTest">
+        <label for="cuddly">Do you like to cuddle with your pets?</label>
+        <select id="cuddlevirdict">
+          <option value="All">All the time</option>
+          <option value="Some">Some of the time</option>
+          <option value="Never">Never ever</option>
+          <option value="Why">Why you asking</option>
+        </select>
+        <label for="age">How old are you?</label>
+        <input type="text" id="age">
+        <button type="button" id="btn">Submit</button>
+      </form>
+      <div id="results">
+        <p>Based on this test, you should adopt a <span id="animal"></span></p>
+      </div>
+    </div>
   </body>
 </html>
